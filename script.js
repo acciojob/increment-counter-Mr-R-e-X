@@ -5,6 +5,6 @@ let btn = document.querySelector('#incrementBtn')
 P.innerHTML = counter;
 btn.addEventListener('click', ()=>{
 		counter+=1;
-	window.alert(`current count ${counter}`)
+	window.alert(`${counter}`)
 	P.innerHTML = counter;
 })
