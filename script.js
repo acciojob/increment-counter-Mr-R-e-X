@@ -4,7 +4,7 @@ let P = document.querySelector('#counter')
 let btn = document.querySelector('#incrementBtn')
 P.innerHTML = counter;
 btn.addEventListener('click', ()=>{
-		counter+=1;
 	window.alert(`${counter}`)
+	counter+=1;
 	P.innerHTML = counter;
 })
