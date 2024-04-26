@@ -2,9 +2,9 @@
 let counter = 0;
 let P = document.querySelector('#counter')
 let btn = document.querySelector('#incrementBtn')
-// P.innerHTML = counter;
+P.innerHTML = counter;
 btn.addEventListener('click', ()=>{
 		counter+=1;
-	alert(counter)
+	alert(`current count ${counter}`)
 	P.innerHTML = counter;
 })
